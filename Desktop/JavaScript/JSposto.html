@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head></head>
+
+    <meta charset="UTF-8">
+
+    <body>
+
+        <script>
+        	var codigo = prompt("Digite o código 1-Álcool ou 2-Gasolina: ");
+            var qnt = prompt("Agora digite a quantidade de litros abastecido: ");
+            var valorAlc = qnt * 3.16;
+            var valorGas = qnt * 4.19;
+
+                if (codigo == "1"){
+                    document.write("O valor foi de R$"+valorAlc);
+                }else{
+                    if (codigo == "2"){
+                    document.write("O valor foi de R$"+valorGas); 
+                   }else{
+                    if (codigo != "1" | "2"){
+                        document.write("Codigo não existente.");
+                    }
+                   }
+                    
+                }
+
+                
+        </script>
+
+    </body>
+
+</html>  
